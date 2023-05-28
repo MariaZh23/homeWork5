@@ -1,0 +1,438 @@
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p, 
+.mainmenu, #about, .gallerymenu, button p, #fraze, #fraze-author, .instructorname, .instructorpos, button, h5 {
+  font-family: "Roboto condensed", Arial, Helvetica, sans-serif;
+}
+
+#mainname, h3 {
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-image: url(../images/Rectangle75.jpg);
+  background-position: center;
+  width: 1920px;
+  height: 1080px;
+}
+
+nav {
+  margin: 0; 
+  padding: 0; 
+  text-align: center;}
+
+#navmenu {
+  width: 1920px;
+  height: 491px;
+  background: linear-gradient(180deg, #01353e 0%, rgba(51, 51, 51, 0.595076) 31.64%, rgba(51, 51, 51, 0.222586) 74.35%, rgba(51, 51, 51, 0) 99.87%); 
+}
+
+#logo {
+  position: absolute;
+  width: 60px;
+  height: 63px;
+  left: 360px;
+  top: 34px;
+}
+
+.mainmenu {
+  display: inline-block;
+  text-decoration: none;
+  padding: 45px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.6px;
+  color: #ffffff;
+}
+
+.mainmenu:hover {
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-color: #00b2a0;
+}
+
+#mainname, #about {
+  display: flex;
+  justify-content: center;
+}
+
+#mainname {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 200px;
+  letter-spacing: 0.6px;
+  color: #0d302c;
+}
+
+#about {
+  position: absolute;
+  width: 426px;
+  height: 28px;
+  left: 747px;
+  top: 575px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.6px;
+  color: #000000;
+}
+
+#addlogo {
+  position: absolute; 
+  height: 68.8067626953125px;
+  width: 20px;
+  left: 950px;
+  top: 918px;
+  border-radius: 0;
+}
+
+.aboutall {
+  display: flex;
+  flex-direction: column;
+  width: 1920px;
+  height: 966px;
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+  padding-top: 189px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  letter-spacing: 0.6px;
+  color: #01353e;
+}
+
+.aboutall-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.aboutall-first-line, .aboutall-second-line, .aboutall-third-line, .aboutall-fourth-line {
+display: flex;
+flex-direction: row;
+column-gap: 100px;
+}
+
+.aboutall-left-one, .aboutall-right-one, .aboutall-left-two, .aboutall-right-two, .aboutall-left-three, .aboutall-left-three, .aboutall-left-four, .aboutall-left-four {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  width: 480px;
+}
+
+.aboutall p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: 0.6px;
+  color: #242121;
+}
+
+
+.inschool {
+  width: 1920px; 
+  height: 953px;
+  background-color: #f8f8f8;
+} 
+
+.inschool-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.inschool-conditions {
+display: flex;
+flex-direction: row;
+justify-content: center;
+padding-top: 50px;
+column-gap: 80px;
+margin-left: 200px;
+margin-right: 200px;
+}
+
+.accommodation, .flight, .training {
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align:left;
+padding: 10px;
+}
+
+.inschool-conditions p {
+  width: 350px;
+  padding-top: 10px;
+}
+
+.top-one, .top-two, .top-three {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+  .group {
+  width: 50px; 
+  height: 50px;
+}
+
+.inschool-info {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  column-gap: 350px;
+  }
+
+  .upline, .middleline, .bottomline {
+      display: flex;
+      padding: 15px;
+  }
+
+  .inschool-add {
+     display: flex;
+     flex-direction: column;
+  }
+
+  .inschool-add p {
+      width: 600px;
+      padding: 15px;
+  }
+
+  #conquer-top {
+    display: flex;
+    width: 1920px;
+    height: 1050px;
+  }
+  
+  .conquer-top-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 290px;
+    margin-right: 100px;
+  }
+
+  .conquer-top-left p {
+    margin-top: 70px;
+  }
+
+  #surf {
+    width: 960px;
+    height: 850px;
+  }
+  
+
+
+  #gallery-name, #team-name {
+    display: flex;
+    padding: 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    letter-spacing: 0.6px;
+    color: #01353e; 
+  }
+
+  .gallery {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    width: 1920px;
+    height: 1262px;
+  }
+
+  
+  .gallerymenu {
+    padding-bottom: 30px;
+    text-decoration: none;
+    padding: 20px;
+    padding-bottom: 40px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 18px;
+    letter-spacing: 0.6px;
+    color: #242121;
+  }
+  
+  .gallerymenu:hover {
+    color: #00b2a0;
+    text-decoration-color: #00b2a0;
+  }
+
+.gallery-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+align-items: center;
+    margin-top: 150px;
+}
+  
+.gallery-foto {
+    display: flex;
+    flex-direction: column;
+}
+.gallery-foto-up {
+    display: flex;
+    column-gap: 40px;
+    padding-bottom: 20px;
+}
+
+.gallery-foto-down {
+    display: flex;
+    column-gap: 40px;
+    padding-top: 20px; 
+}
+
+input {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    width: 350px;
+    height: 70px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 0.6px;
+    color: #242121;
+  } 
+
+  #gallery-button {
+   margin-top: 40px;
+  }
+
+
+
+
+
+
+
+#quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1920px;
+  height: 200px;
+  background: #f8f8f8;
+}
+
+#fraze, #fraze-author {
+  font-style: italic;
+  color: #242121;
+}
+
+#fraze {
+  text-align: center;
+  font-weight: 400;
+  font-size: 36px;
+  letter-spacing: 0.6px;
+
+}
+
+#fraze-author {
+  display: flex;
+  justify-content: center;
+  margin-left: 700px;
+  text-align: right;
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: 0.6px;
+}
+
+
+
+
+
+
+.team {
+  width: 1920px;
+  height: 987px;
+}
+
+.instructor-team {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+  column-gap: 60px;
+}
+
+
+img.team {
+  width: 330px;
+  height: 450px;
+}
+
+.instructorname { 
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 0.6px;
+  color: #242121;
+  }
+
+.instructorpos {
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.6px;
+  color: #242121;
+  }
+
+
+
+
+
+
+
+
+  .service-packages {
+    width: 1920px;
+    height: 1245px;
+    background: #f8f8f8;
+  }
+  
+  h5 {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 40px;
+    color: #01353E;
+  }
+  
+.price {
+    display: flex;
+    justify-content: center;
+}
+
+  .service {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.6px;
+    color: #242121;
+  }
+
+  .servise {
+    display: flex;
+    }
